@@ -1,10 +1,11 @@
 var mainState = {
 	preload: function() {
-
+		game.load.image('devahoy', 'logo.png');
 	},
 
 	create: function() {
 		game.stage.backgroundColor = '#e26a6b';
+		game.add.sprite(0, 0, 'devahoy');
 	},
 
 	update: function() {
