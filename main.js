@@ -5,7 +5,7 @@ var mainState = {
 
 	create: function() {
 		game.stage.backgroundColor = '#e26a6b';
-		game.add.sprite(0, 0, 'devahoy');
+		game.add.sprite(0, 0, 'devahoy').anchor.setTo(0.5, 0.5);
 	},
 
 	update: function() {
