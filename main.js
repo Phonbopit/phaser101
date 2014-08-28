@@ -23,6 +23,7 @@ var mainState = {
 
     this.myWorld.enableBody = true;
 
+    // Group.create(x, y, image);
     var ground = this.myWorld.create(0, game.world.height - 64, 'ground');
     ground.scale.setTo(2, 2);
     ground.body.immovable = true;
@@ -47,6 +48,7 @@ var mainState = {
     this.player.body.gravity.y = 980;
     this.player.body.collideWorldBounds = true;
 
+    // animations.add(name, frames, frame rate, loop);
     this.player.animations.add('right', [3, 4, 5], 10, true);
     this.player.animations.add('left', [9, 10, 11], 10, true);
     this.player.frame = 6;
@@ -56,6 +58,7 @@ var mainState = {
     // random spawn coins
     this.spawnCoins();
 
+    // text(x, y, text, style);
     this.scoreText = game.add.text(16, 16, 'Score : ' + this.score, {
       fontSize: '20px',
       fill: '#ed3465'
@@ -118,6 +121,7 @@ var mainState = {
   }
 };
 
+// Phaser.Game(width, height, renderer, HTML Element);
 var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game');
 
 game.state.add('main', mainState);
