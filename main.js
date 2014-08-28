@@ -98,8 +98,8 @@ var mainState = {
   spawnCoins: function() {
     for (var i = 0; i < 10; i++) {
 
-      var x = this.rnd.integerInRange(0, game.world.width);
-      var y = this.rnd.integerInRange(0, game.world.height);
+      var x = this.rnd.integerInRange(0, game.world.width - 40);
+      var y = this.rnd.integerInRange(0, game.world.height - 100);
 
       this.coins.create(x, y, 'coin');
       this.coins.forEach(function(coin) {
