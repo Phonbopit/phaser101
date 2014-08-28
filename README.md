@@ -10,18 +10,5 @@ This is a tutorial about how to create HTML5 Game with PhaserJS
 
 ### Game Assets
 
-- [Platformer Art : Xeno Diversity](http://opengameart.org/content/platformer-art-xeno-diversity)
+- [Antifarea's RPG sprite set 1](http://opengameart.org/content/antifareas-rpg-sprite-set-1-enlarged-w-transparent-background-fixed)
 - [Spinning Coin](http://opengameart.org/content/spinning-coin)
-
-- LICENSE
-
-	Platformer Art (Xeno Diversity) by Arsonide
-
-	------------------------------
-		
-		License (CC0)
-	http://creativecommons.org/publicdomain/zero/1.0/
-
-	You may use these graphics in personal and commercial projects.
-	Credit (Kenney or www.kenney.nl) would be nice but is not mandatory.
-	Credit Arsonide would also be nice but is not mandatory.
