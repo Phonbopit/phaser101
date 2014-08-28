@@ -2,13 +2,13 @@
 
 This is a tutorial about how to create HTML5 Game with PhaserJS
 
+## DEMO 
 
+[Play Demo](http://devahoy.github.io/phaser-101/)
 
 ---
 
 ## CREDIT
-
-### Game Assets
 
 - [Antifarea's RPG sprite set 1](http://opengameart.org/content/antifareas-rpg-sprite-set-1-enlarged-w-transparent-background-fixed)
 - [Spinning Coin](http://opengameart.org/content/spinning-coin)
