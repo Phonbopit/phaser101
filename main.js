@@ -14,6 +14,12 @@ var mainState = {
     this.score = 0;
     this.scoreText;
 
+        // text(x, y, text, style);
+    this.scoreText = game.add.text(16, 16, 'Score : ' + this.score, {
+      fontSize: '20px',
+      fill: '#ed3465'
+    });
+
     game.stage.backgroundColor = '#a8e8ff';
 //    game.add.sprite(0, 0, 'devahoy').anchor.setTo(0.5, 0.5);
 
@@ -58,11 +64,7 @@ var mainState = {
     // random spawn coins
     this.spawnCoins();
 
-    // text(x, y, text, style);
-    this.scoreText = game.add.text(16, 16, 'Score : ' + this.score, {
-      fontSize: '20px',
-      fill: '#ed3465'
-    });
+
 
     this.cursors = this.input.keyboard.createCursorKeys();
   },
@@ -72,7 +74,7 @@ var mainState = {
     game.physics.arcade.collide(this.player, this.myWorld);
     game.physics.arcade.collide(this.coins, this.myWorld);
 
-    // check if player overlap coin
+    // // check if player overlap coin
     game.physics.arcade.overlap(this.player, this.coins, this.collectCoin, null, this);
 
     // reset player velocity
@@ -88,7 +90,7 @@ var mainState = {
       this.player.frame = 6;
     }
 
-    // Allow player to jump if player touching the ground.
+    // // Allow player to jump if player touching the ground.
     if (this.cursors.up.isDown && this.player.body.touching.down) {
       this.player.body.velocity.y = -500;
     }
@@ -115,7 +117,7 @@ var mainState = {
   },
 
   collectCoin: function(player, coin) {
-    coin.kill();
+    coin.destroy();
     this.score += 10;
     this.scoreText.text = 'Score : ' + this.score;
   }
