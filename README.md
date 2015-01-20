@@ -1,6 +1,6 @@
 ## HTML5 Game with PhaserJS by Devahoy
 
-This is a tutorial about how to create HTML5 Game with PhaserJS
+This is a tutorial about how to create HTML5 Game with PhaserJS updated from Devahoy repo.
 
 ## DEMO 
 
