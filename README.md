@@ -4,7 +4,7 @@ This is a tutorial about how to create HTML5 Game with PhaserJS updated from Dev
 
 ## DEMO 
 
-[Play Demo](http://devahoy.github.io/phaser-101/)
+[Play Demo](http://phonbopit.github.io/phaser101/)
 
 ---
 
